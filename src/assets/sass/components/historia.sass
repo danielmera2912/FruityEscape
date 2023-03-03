@@ -1,0 +1,43 @@
+.cuerpo__historia
+    height: 100vh
+    font-family: $fuente_inter
+    font-weight: 600
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 20px
+    background-image: url(../images/Imagenes/fondo.jpg)
+.cuerpo__historia__subtitulo
+    font-size: 24px
+    margin-bottom: 10px
+
+video
+    width: 100%
+    max-width: 800px
+    height: auto
+    margin-bottom: 20px
+
+.cuerpo__historia__descripcion
+    padding: 3rem
+    font-size: 18px
+    line-height: 1.5
+    text-align: justify
+
+@media screen and (max-width: 768px)
+    .cuerpo__historia
+        padding: 10px
+
+        &__descripcion
+            padding: 1rem
+
+    video
+        max-width: 100%
+        height: auto
+
+@media screen and (max-width: 480px)
+    .cuerpo__historia__subtitulo
+        font-size: 20px
+
+    .cuerpo__historia__descripcion
+        font-size: 0.8rem
+        line-height: 1.3

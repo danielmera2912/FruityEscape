@@ -1,0 +1,92 @@
+.cuerpo__personajes
+    display: flex
+    position: relative
+    flex-direction: column
+    height: 100vh
+    font-family: $fuente_inter
+    background-image: url(../images/Imagenes/fondo.jpg)
+    &__subtitulo
+        padding: 1rem
+        text-align: center
+        padding-top: 1rem
+        @media (max-width: 1200px)
+            font-size: 1rem
+        @media (max-width: 950px)
+            padding-top: 0rem
+            font-size: 1rem
+    &__audios
+        position: relative
+        margin-top: 25rem
+        padding: 0.5rem
+        border-radius: 35px
+        background-color: gray
+        align-self: center
+        @media (max-width: 950px)
+            display: flex
+            flex-direction: column
+            margin-top: 12rem
+            padding: 0
+            background-color: transparent
+
+.cuerpo__personajes__contenedor
+    align-self: center
+    width: 90%
+    max-width: 120em
+    padding: 1em
+    @media (max-width: 950px)
+        width: auto
+
+.cuerpo__personajes__contenedor .ul
+    width: 100%
+    list-style: none
+    display: flex
+    flex-flow: row nowrap
+    justify-content: flex-start
+    align-items: center
+
+.cuerpo__personajes__contenedor .li
+    padding: 1em
+    margin: 0 2em 0 0
+    transition: all .5s ease
+    cursor: pointer
+
+.cuerpo__personajes__contenedor .li.activo
+    background-color: lightskyblue
+    color: white
+
+.cuerpo__personajes__contenedor .cuerpo__personajes__subcontenedor
+    min-height: 10vh
+    position: relative
+
+.cuerpo__personajes__contenedor .bloque
+    margin: 1em
+    padding: 1em
+    position: absolute
+    top: 2em
+    opacity: 0
+    transform: translateY(50%)
+    transition: all .5s ease
+
+.cuerpo__personajes__contenedor .bloque.activo
+    opacity: 1
+    transform: translateY(0%)
+.elemento_visual
+    width: 12rem
+    @media (max-width: 950px)
+        width: 10rem
+.elementos
+    &__ventana
+        background-color: lightblue
+        width: 12rem
+        height: 10.4rem
+        position: absolute
+        top: 12rem
+        right: 10rem
+        @media (max-width: 950px)
+            display: none
+    &__flecha
+        position: absolute
+        top: 14rem
+        left: 44%
+        @media (max-width: 950px)
+            display: none
