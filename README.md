@@ -31,4 +31,4 @@ El proyecto utiliza las siguientes dependencias:
 
 ## Recursos y licencias
 
-[Para ver los recursos creados por mi parte y las licencias de los recursos no propios, clickea aquí.] (https://github.com/danielmera2912/Fruity-Escape)
+[Para ver los recursos creados por mi parte y las licencias de los recursos no propios, clickea aquí.](https://github.com/danielmera2912/Fruity-Escape)
